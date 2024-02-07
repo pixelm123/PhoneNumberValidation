@@ -27,7 +27,7 @@ namespace PhoneNumberValidation
             Console.WriteLine("------------------------------------");
             Console.WriteLine("1 : Check The Number \t 2 : Exit");
             Console.WriteLine("------------------------------------");
-            Console.Write("\nEnter Your Choice : ");
+            Console.Write("\nEnter Your Choice: ");
         }
         
         static void Main(string[] args)
@@ -62,7 +62,7 @@ namespace PhoneNumberValidation
                                      
                                     if (isEmpty == true)
                                     {
-                                        Console.WriteLine("Number Can't Be Null");
+                                        Console.WriteLine("Number Cannot Be Null");
                                         Console.ReadLine();
                                     }
                                    
